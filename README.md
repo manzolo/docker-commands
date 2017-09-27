@@ -3,13 +3,11 @@ Comandi docker
 
 # Documentazione
 
-## [Installazione](https://docs.docker.com/engine/installation/ubuntulinux/)
+### [Installazione](https://docs.docker.com/engine/installation/ubuntulinux/)
 
-## [Bestpractices](https://docs.docker.com/engine/articles/dockerfile_best-practices)
+### [Bestpractices](https://docs.docker.com/engine/articles/dockerfile_best-practices)
 
-- Build images
-```
-https://docs.docker.com/engine/userguide/containers/dockerimages/
+### [Build images](https://docs.docker.com/engine/userguide/containers/dockerimages/)
 ```
 
 - Uso
