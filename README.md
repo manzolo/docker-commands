@@ -8,13 +8,10 @@ Comandi docker
 ### [Bestpractices](https://docs.docker.com/engine/articles/dockerfile_best-practices)
 
 ### [Build images](https://docs.docker.com/engine/userguide/containers/dockerimages/)
-```
 
-- Uso
-```
-https://docs.docker.com/engine/userguide/usingdocker/
-```
+### [Uso](https://docs.docker.com/engine/userguide/usingdocker/)
 
+# Comandi
 - Start docker
 ```
 docker build -t manzolo/lamp .
