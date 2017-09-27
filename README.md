@@ -19,17 +19,17 @@ docker run -d -p 8080:80 -p 3307:3306 manzolo/lamp
 docker run -it manzolo/lamp /bin/bash
 ```
 
-- stop container_id
+- Stop container_id
 ```
 docker stop 223a0c9e805a
 ```
 
-- docker log conteiner
+- Docker log conteiner
 ```
 docker ps -a
 ```
 
-- conteiner attivi
+- Container attivi
 ```
 docker ps -l
 ```
@@ -45,5 +45,12 @@ docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)
 ```
 - Delete all images
 ```
+docker rmi $(docker images -q)
+```
+
+- Clean all
+```
+docker rmi -f $(docker images | grep "<none>" | awk "{print \$3}")
+docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)
 docker rmi $(docker images -q)
 ```
