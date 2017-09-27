@@ -51,6 +51,8 @@ docker rmi -f $(docker images | grep "<none>" | awk "{print \$3}")
 - Stop/remove all
 ```
 docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)
+```
 - Delete all images
+```
 docker rmi $(docker images -q)
 ```
